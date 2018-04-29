@@ -1,1 +1,12 @@
-manifests/default.xml
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    <remote name="local" fetch="https://github.com/13824125580/" />
+    <default remote="local" revision="master"/>
+    <project path="source/tools/" name="melis-toolchain.git"/>
+    <project path="source/zephyr/" name="zephyr.git"/>
+    <project path="source/zircon/" name="zircon.git"/>
+    <project path="source/liteos/" name="LiteOS_Kernel.git"/>
+    <project path="source/rt-thread/" name="rt-thread.git"/>
+    <project path="source/mips-ejtag-ocd/" name="openocd-mips-ejtag.git"/>
+</manifest>
