@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    <remote name="local" fetch="https://github.com/13824125580/" />
+    <remote name="pokey" fetch="https://github.com/zephyrproject-rtos/" />
+    <default remote="local" revision="master"/>
+    <project path="source/tools/" name="melis-toolchain.git"/>
+    <project path="source/zephyr/" name="zephyr.git"/>
+    <project path="source/zircon/" name="zircon.git"/>
+    <project path="source/liteos/" name="LiteOS_Kernel.git"/>
+    <project path="source/rt-thread/" name="rt-thread.git"/>
+    <project path="source/mips-ejtag-ocd/" name="openocd-mips-ejtag.git"/>
+    <project path="source/zephyr-upstream/" name="zephyr.git" remote="pokey"/>
+</manifest>
